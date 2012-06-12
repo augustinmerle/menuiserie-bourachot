@@ -1,0 +1,45 @@
+* { margin: 0; padding: 0; }
+body { font: 1em Tahoma, Verdana, Sans-Serif, Arial; background: url(images/fond.jpg) repeat; color: #FFFFFF; }
+h1 { font: normal 2.4em "Trebuchet MS", Helvetica, Arial; }
+h2 { font: normal 1.6em "Trebuchet MS", Helvetica, Arial; color: #000000; margin: 0 0 15px; }
+h3 { font: normal 1.2em "Trebuchet MS", Helvetica, Arial; margin: 0 0 20px; }
+h4 { font: normal 1.1em "Trebuchet MS", Helvetica, Arial; color: #dfdfdf; margin: 0 0 4px; }
+p { margin: 0 0 15px; line-height: 1.3em; }
+a { outline: 0; color: #000000; text-decoration: none; }
+li { list-style: none; }
+li a, img { display: block; }
+img { outline: 0; border: 3px solid black; }
+#wrapper { width: 984px; margin: auto;margin-top: 15px;  border: 10px solid #FFFFFF; }
+.clr { clear: both; }
+#logo { float: right; padding: 0px 0px; }
+	#logo h1 { color: #fff; }
+		#logo h1 a span { color: #808080; }
+#menu { height: 24px; padding: 5px 0 0 4px; }
+	#menu li { float: left; font-size: 1.1em; text-transform: uppercase; }
+		#menu li a { color: #FFFFFF; margin: 0 50px 0 0; }
+			#menu li a.current, #menu li a:hover { color: #000000; }			
+	#pitch { clear: both; background: url(images/pitch.gif) no-repeat; height: 228px; margin: 0px 0 10px;  }
+		#pitch h1 { font-size: 1.6em; color: white; margin: 140px 40px 10px;font-weight: bold ; }
+		#pitch em { font-size: 1.3em; font-weight: bold; line-height: 1.4em; margin: 10px 20px 10px;}
+.content { background: url(images/content2.gif) repeat; padding: 10px 20px; }
+.link { background: #304D6F; color: #fff; padding: 5px 10px; font-size: .9em;}
+#main { padding: 20px; font: 1,5em Tahoma, Verdana, Sans-Serif, Arial;background-color: #FFFFFF; color:black;border-top: 5px solid #FFFFFF;}
+.col { float: left; width: 292px; margin: 0 30px 15px 0; }
+	.col.last { float: right; margin-right: 0; }
+	.case img { float: left; clear: left; margin: 0 20px 20px 0; background: #121212; padding: 3px; }
+	.short { padding: 0 0 15px 0; background: url(images/line.gif) repeat-x left bottom; }
+	.case a, .article a { color: #ddd; font-weight: bold; }
+	.date { font-size: .84em; margin: 0 0 3px; }
+#footer { clear: both; border-top: 1px solid #FFFFFF; padding: 20px 20px 10px; font-size: .9em;background: url(images/content1.gif) repeat; }
+	#footer a { color: #ccc; margin: 0 10px 0 0; border-bottom: 1px dotted #444; padding: 0 0 1px; }
+	#links { float: right; }
+		#links a { margin: 0 0 0 10px; }
+	#footer p { margin: 0 0 8px; }
+	#footer img { float: left; padding-right: 20px; }
+	.liste {
+		padding-left: 20px;
+	}
+	.liste li{
+		list-style-type: square;
+		padding-left: 10px;
+	}
